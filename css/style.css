@@ -1,5 +1,10 @@
 a {
     color: #11999E;
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px 20px;
+}
+a:hover {
+    color: #EAF6F6;
 }
 
 body {
@@ -7,7 +12,15 @@ body {
     text-align: center;
     font-family: Verdana, sans-serif;
     font-family: 'Merriweather', serif;
+    color: #40514E;
 }
+
+.copyright {
+    color: #EAf6f6;
+    font-size: 0.75rem;
+    padding: 20px 0;
+}
+
 
 h1 {
     font-size: 5.625rem;
@@ -22,6 +35,7 @@ h2 {
     font-size: 2.5rem;
     color: #66BFBF;
     font-weight: normal;
+    padding-bottom: 10px;
 }
 
 h3 {
@@ -36,37 +50,63 @@ h3 {
 
 }
 
-/* .middle-container {
-   
-} */
+.middle-container {
+   margin: 100px 0;
+}
+
+.bottom-cloud {
+    position: absolute;
+    left: 250px;
+    bottom: 300px;
+}
 
 .bottom-container {
     background-color: #66BFBF;
-    height: 200px;   
+    padding: 50px 0 20px; 
+}
+
+.btn {
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+
+}
+  
+.btn:hover {
+background: #30e3cb;
+background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+text-decoration: none;
+}
+
+
+p {
+    line-height: 2;
 }
 
 .pro {
     text-decoration: underline;
 }
 
-.top-cloud {
-    position: absolute;
-    right: 300px;
-    top: 50px;
-    
-}
-
-.bottom-cloud {
-    position: absolute;
-    left: 300px;
-    bottom: 300px;
-}
 
 .skill-row {
     width: 50%;
     margin: 100px auto;
-    text-align: left;
-    line-height: 2;
+    text-align: left;  
 
 }
 
@@ -82,36 +122,33 @@ h3 {
     margin-left: 30px;
 }
 
-.hello-text-description {
-    text-decoration-color: #40514E; 
+.top-cloud {
+    position: absolute;
+    right: 300px;
+    top: 50px;
+    
 }
 
-.btn {
-    background: #11cdd4;
-    background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
-    background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
-    background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
-    background-image: -o-linear-gradient(top, #11cdd4, #11999e);
-    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
-    -webkit-border-radius: 28;
-    -moz-border-radius: 28;
-    border-radius: 28px;
-    font-family: Arial;
-    color: #ffffff;
-    font-size: 20px;
-    padding: 10px 20px 10px 20px;
+.intro {
+    width: 30%;
+    margin: auto;
+
+}
+
+.contact-me {
+    margin-bottom: 50px;
+    padding-top: 50px;
+}
+
+.contact-message {
+    width: 40%;
+    margin:40px auto 60px;  
+}
+
+.footer-link {
+    padding: 25px;
     text-decoration: none;
-  }
-  
-  .btn:hover {
-    background: #30e3cb;
-    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
-    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
-    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
-    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
-    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
-    text-decoration: none;
-  }
+}
 
 hr{
     border-style: none;
@@ -121,52 +158,3 @@ hr{
     border-width: 5px;
     margin: 100px auto;
 }
-
-.contact-me {
-    margin-bottom: 50px;
-    padding-top: 50px;
-}
-
-.footer-link {
-    padding: 25px;
-    text-decoration: none;
-}
-
-
-
-
-
-
-
-
-/* .top-container {
-    background-color: #e4f9f5;
-    border: solid 10px;
-    border-color: black;
-    width: 200px;
-    height: 200px;
-    padding: 20px;
-}
-
-.middle-container {
-    background-color: red;
-    width: 200px;
-    height: 200px;
-    border: solid 20px;
-    border-color: black;
-    margin-left: 260px;
-}
-
-.bottom-container {
-    background-color: yellow;
-    width: 200px;
-    height: 200px;
-    border: solid 10px;
-    border-color: black;
-    margin-left: 500px;
-}
-
-
-
-
- */
